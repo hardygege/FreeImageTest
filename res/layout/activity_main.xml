@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/test_btn0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestPic_箱形" />
+        <Button
+            android:id="@+id/test_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestPic_二维立方" />
+        
+        <Button
+            android:id="@+id/test_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestPic_双线性" />
+        
+        <Button
+            android:id="@+id/test_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestPic_B样条" />
+        <Button
+            android:id="@+id/test_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestPic_Catmull-Rom" />
+        
+        <Button
+            android:id="@+id/test_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestPic_Lanczos" />
+    </LinearLayout>
+
+</ScrollView>
